@@ -1,7 +1,7 @@
 package com.loc.newsapp.util
 
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Locale
 
 fun convertDateFormat(inputDateString: String): String {
     val inputFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.US)
