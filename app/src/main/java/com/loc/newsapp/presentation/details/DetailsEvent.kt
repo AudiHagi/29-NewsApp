@@ -1,3 +1,7 @@
 package com.loc.newsapp.presentation.details
 
-sealed class DetailsEvent
+sealed class DetailsEvent {
+
+    object SaveArticle : DetailsEvent()
+
+}
